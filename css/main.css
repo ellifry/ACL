@@ -3,13 +3,34 @@ body {
 }
 /*background: #002fa7;*/
 .navbar-custom {
-    background-color: #002fa7;
+    background-color: #0024cc;
 }
 
 .navbar-brand {
     color: white;
 }
+.navbar-brand:hover{
+    color: #ebd999;
+}
 
 i {
     padding: 10px 10px 10px 10px;
+}
+
+.btn-custom {
+    background-color: #0024cc;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 10px;
+    transition-duration: 0.2s;
+}
+
+.btn-custom:hover {
+    background-color: #ebd999;
+    color: black;
+}
+
+.navbar {
+    border-bottom: 5px solid #e0b81f;
 }
