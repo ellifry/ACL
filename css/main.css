@@ -1,9 +1,14 @@
 body {
 
 }
+
+h1 {
+    color: #0024cc;
+}
+
 /*background: #002fa7;*/
 .navbar-custom {
-    background-color: #0024cc;
+    background-color: #2d0060;
 }
 
 .navbar-brand {
@@ -18,7 +23,7 @@ i {
 }
 
 .btn-custom {
-    background-color: #0024cc;
+    background-color: #2d0060;
     border-radius: 4px;
     color: white;
     border: none;
@@ -32,5 +37,29 @@ i {
 }
 
 .navbar {
-    border-bottom: 5px solid #e0b81f;
+    border-bottom: 5px solid #ebd999;
+}
+
+/*custom buttons*/
+.btn-custom-2 {
+    background-color: #0024cc;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 10px;
+    transition-duration: 0.2s;
+}
+
+.btn-custom-2:hover {
+    background-color: #2d0060;
+    color: #ebd999;
+}
+
+.btn-custom-3 {
+    background-color: #000831;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 10px;
+    transition-duration: 0.2s;
 }
